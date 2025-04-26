@@ -17,7 +17,7 @@ winapi = {version = "0.3.9", features =[
     "errhandlingapi",
     "sddl",
 ]}
-windows = { version = "0.58.0", features = [
+windows = { version = "0.61.1", features = [
     "Win32_Foundation", 
     "Win32_System_Com", 
     "Win32_System_Com_Marshal", 
@@ -25,7 +25,7 @@ windows = { version = "0.58.0", features = [
 ]}
 base64 = "0.22.1"
 byteorder = "1.5.0"
-windows-core = "0.58.0"
+windows-core = "0.61.0"
 libc-print = "0.1.23"
 
 [profile.release]

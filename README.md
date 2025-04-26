@@ -65,19 +65,20 @@ RustPotato provides the following features:
 
 ### Build Options
 
-> **Note:** RustPotato supports only x86_64 targets (MSVC or GNU).
-
 - **Basic build** (only the process output is printed):
 
   ```bash
-  cargo build --release
+  cargo +nightly-2025-02-14 build --release
   ```
 
 - **Build with verbose logging**:
 
   ```bash
-  cargo build --release --features verbose
+  cargo +nightly-2025-02-14 build --release --features verbose
   ```
+
+> [!NOTE]
+> RustPotato requires Rust nightly 1.86 and supports only x86_64 targets (MSVC or GNU).
 
 ### Help
 
